@@ -203,7 +203,7 @@ $ git clone https://github.com/JonathanSalwan/Triton.git
 $ cd Triton
 $ mkdir build
 $ cd build
-$ cmake -DPINTOOL=on ..
+$ cmake -DPINTOOL=on -DPYTHON36=off ..
 $ make -j2
 $ cd ..
 $ ./build/triton ./src/examples/pin/ir.py /usr/bin/id
